@@ -4,33 +4,18 @@ body{
     background-color: black;
 }
 
-
 .header{
-    color: blue;
-    border-bottom: solid 3px #32b9cd;
-    border: solid 3px green;
+    color: #32b9cd; 
+    /* border-bottom: solid 3px #32b9cd; */
+    /* border: solid 3px green; */
 }
 
 .container{
-    border: solid 3px yellow;
+    /* border: solid 3px yellow; */
     width: 80%;
     margin: auto;
 }
 
-h1{
-    /*border: solid 3px blueviolet;*/
-    padding: 5px 15px 20px 25px;
-    /*padding-top: 5px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    padding-left: 25px;*/
-
-}
-
-ul{
-    
-    border: solid 3px red;
-}
 
 .header .container{
     display: flex;
@@ -41,13 +26,82 @@ ul{
     display: flex;
     width: 600px;
     justify-content: space-around;
-color: #e3b062;
-list-style: none;
-align-items: center;
+    color: #e3b062;
+    list-style: none;
+    align-items: center;
+}
 
+
+.banner{
+    color:white;
+   /*  border: solid 3px pink; */
+    padding: 40px 0;
+    height: 400px;
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.banner .container{
+    /* border:solid 3px red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p{
+    /* border: solid 3px green; */
+    font-size: 36px;
+    width: 280px;
+}
+
+.banner .container span{
+    font-weight: 800;
+}
+
+/*missão visão valores*/
+
+.social{
+   /*  border: solid 3px green; */
+    background-color: #e5e5e5;
+}
+
+.box img{
+    width: 170px;
 
 }
-/*
-li{
-    border: solid 3px cadetblue;
+
+.social .container{
+   /*  border: solid 3px purple; */
+}
+
+.social .container .boxes{
+   /*  border: solid 3px yellow; */
+    display: flex;
+}
+
+.box{
+    /* border: solid 3px blue; */
+    margin: 50px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social p{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: rgb(21, 123, 219);
+    height: 150px;
+    color: white;
+    display: flex;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
 }
